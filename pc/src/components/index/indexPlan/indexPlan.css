@@ -1,0 +1,141 @@
+.indexPlan{
+  padding: 30px 0;
+}
+.plan-left{
+  width:220px;
+  height:570px;
+  background-color: #0f599c;
+}
+.plan-left h2{
+  padding: 50px 0 18px;
+  font-size: 24px;
+  color:#fff;
+  text-align: center;
+}
+.sub-title{
+  color:#fff;
+  width:195px;
+  margin:0 auto;
+}
+.sub-title .line{
+  width:31px;
+  height:1px;
+  background: url(./resource/line1.png);
+  margin-top: 9px;
+}
+.sub-title .line2{
+  width:31px;
+  height:1px;
+  background: url(./resource/line2.png);
+}
+.sub-title p{
+  padding: 0 3px;
+}
+.btn-wrap{
+  width:220px;
+  height: 155px;
+  background: url(./resource/moreBg.png);
+  padding-top: 22px;
+  margin-top: 275px;
+}
+.btn-wrap a{
+  display: block;
+  color:#0f599c;
+  width:120px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #fff;
+  border:none;
+  margin: 0 auto;
+  transition: all .3s;
+}
+.btn-wrap a:hover{
+  transform: translateY(-3px);
+}
+.product-list .name .icon{
+  margin-right: 9px;
+}
+.product-list{
+  width:800px;
+  padding: 30px 40px;
+  background: #fff;
+  text-align: center;
+}
+.plan-name{
+  width:195px;
+}
+.product-list .name{
+  font-size: 18px;
+  color:#333;
+}
+.bottom-desc{
+  color:#999999;
+}
+.plan-name  .bottom-desc{
+  padding-top: 15px;
+}
+.rate{
+  width:150px;
+}
+.profit-rate{
+  color:#fd7753;
+  font-size: 14px;
+  margin-top: -11px;
+}
+.profit-rate span{
+  font-size: 38px;
+}
+.rate .bottom-desc{
+  padding-top: 0;
+}
+.profit-time{
+  color:#333333;
+  margin-top:5px;
+  width:120px;
+}
+.time .bottom-desc{
+  padding-top: 10px;
+}
+.profit-time span{
+  font-size: 18px;
+}
+.profit-time .bottom-desc{
+  padding-top: 0;
+}
+.profit-progress-btn{
+  margin-top: 5px;
+}
+.profit-progress-btn .bottom-desc{
+  padding-top: 10px;
+}
+.progressBar_btn{
+  width:160px;
+  height:4px;
+  background: #eeeeee;
+  position: relative;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.progress{
+  position: absolute;
+  width:50px;
+  max-width: 160px;
+    height:4px;
+    left:0;
+    top:0;
+    background-color: #ff9420;
+    border-radius: 5px;
+}
+.plan-href a{
+  display: block;
+  width:124px;
+  height: 32px;
+  background: #ff9420;
+  line-height: 32px;
+  text-align: center;
+  color:#fff;
+  font-size: 14px;
+  border-radius: 20px;
+  margin-top: 10px;
+}

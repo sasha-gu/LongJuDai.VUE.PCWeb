@@ -1,0 +1,91 @@
+.registerLink{
+  width: 990px;
+  padding: 30px 0 20px;
+  color:#666666;
+  font-size: 16px;
+  text-align: right;
+  margin:0 auto;
+}
+.registerLink a{
+  color:#0f599c;
+}
+.login-container{
+  width: 990px;
+  margin:0 auto;
+  padding-bottom: 50px;
+}
+.loginForm{
+  padding-left: 46px;
+  width:342px;
+  height:450px;
+  border:1px solid #dedede;
+}
+
+.loginForm h2{
+  padding: 45px 0 8px;
+  color:#999999;
+  font-size: 16px;
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 75px;
+}
+.loginForm ul li .inputBox{
+  width:298px;
+  height:40px;
+  border:1px solid #cccccc;
+}
+.loginForm ul li .leftIcon{
+  width: 48px;
+  height:40px;
+  text-align: center;
+  background: #f4f5f9;
+}
+.loginForm ul li .leftIcon img{
+  margin-top: 10px;
+}
+.loginForm ul li input{
+  width:250px;
+  height:40px;
+  line-height: 40px;
+  text-indent: 12px;
+  color:    #a4a4a4;
+  border:none;
+  outline: none;
+}
+.loginForm ul li input::focus {
+    outline:none;
+    border: 1px solid red;
+}
+.loginForm ul li .blueLine{
+  border: 1px solid ##0f599c;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #a4a4a4;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #a4a4a4;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #a4a4a4;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #a4a4a4;
+}
+.errorTip{
+  height:29px;
+  line-height: 29px;
+  color:#f82828;
+}
+.loginBtn{
+  width:300px;
+  height:42px;
+  line-height: 42px;
+  background: #0f599c;
+  color: #fff;
+  border:none;
+  margin: 5px 0 10px;
+  cursor: pointer;
+}
+.safe{
+  color:#999999;
+  font-size: 14px;
+}

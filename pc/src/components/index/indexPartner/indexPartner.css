@@ -1,0 +1,87 @@
+.partner {
+  color: #333333;
+  font-size: 24px;
+  padding-bottom: 50px;
+
+}
+.partner .wrapper{
+  background: #fff;
+}
+.partner .wrapper p{
+  font-size:16px;
+  padding:20px 0;
+  margin:0 40px;
+  border-bottom: 1px solid #eee;
+}
+.partner .partnerTop {
+  /* margin-bottom: 25px; */
+}
+
+.partner ul {
+  margin: 0 auto;
+  padding:0 40px 20px;
+}
+
+.partner ul li {
+  float: left;
+}
+
+.partner ul li a {
+  display: block;
+  width: 187px;
+  height: 82px;
+  /* border: 1px solid transparent;
+  transition: border .3s ease-in-out; */
+}
+.partner ul li.pic1{
+  margin-left: 30px;
+}
+.partner ul li.pic1 a {
+  background: url(./resource/home_ic_wdzj.png) no-repeat;
+  margin-top:20px;
+}
+
+.partner ul li.pic2 a {
+  background: url(./resource/index_partner2.png)  no-repeat;
+}
+.partner ul li.pic3 a {
+  background: url(./resource/index_partnerThird.png)  no-repeat;
+}
+
+.partner ul li.pic4 a {
+  background: url(./resource/index_partner3.png) no-repeat;
+}
+.partner ul li.pic5{
+  margin-right:0;
+}
+.partner ul li.pic5 a {
+  background: url(./resource/index_partner1.png) no-repeat;
+}
+
+.partner ul li a:hover {
+  /* border: 1px solid #dd5b41; */
+}
+
+.partner ul .txt {
+  font-size: 18px;
+  color: #000;
+  margin-right: 25px;
+  line-height: 58px;
+}
+
+.partner ul .pic {
+  width: 187px;
+  height: 82px;
+  margin-right: 10px;
+}
+
+.partner ul li.pic6 {
+  margin-right: 0;
+}
+
+
+
+.partner ul .pic img {
+  width: 100%;
+  height: 100%;
+}

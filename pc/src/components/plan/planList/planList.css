@@ -1,0 +1,164 @@
+.select-wrapper{
+  width:1100px;
+  background:#fff;
+  margin:25px auto;
+}
+.select-wrapper .day{
+  margin:0 0 50px 34px;
+}
+.select-wrapper dt{
+  margin-right: 30px;
+  width:90px;
+}
+.select{
+  width:730px;
+  padding:30px 0;
+}
+.select-wrapper  dd.all{
+    margin-right: 66px;
+}
+.select-wrapper .day dd{
+    margin-right: 42px;
+    cursor: pointer;
+}
+.select-wrapper  dd.active{
+    color:#ff9420;
+}
+.select-wrapper .rate{
+  margin:0 0 0 34px;
+}
+.select-wrapper .rate dd{
+  margin-right:40px;
+  cursor: pointer;
+}
+.select-wrapper .rate dd.all{
+    margin-right: 42px;
+}
+.selectImg{
+  margin-right: 46px;
+}
+.plan-list{
+  width:1000px;
+  margin: 25px auto 50px;
+  background: #fff;
+  padding: 0 50px 50px ;
+}
+.plan-list .table-tit{
+  border-bottom:1px solid #eeeeee;
+}
+.plan-list .table-tit li{
+  float: left;
+}
+.plan-box li:hover{
+  box-shadow: 0px 0px 20px 0px #ccc;
+}
+.plan-box li:hover .plan-btn a{
+  background-color:#ff6d44;
+}
+.plan-list .table-tit{
+  color:#666666;
+  font-size: 14px;
+  padding: 24px 0 14px;
+}
+.plan-list .plan-name{
+  width:187px;
+}
+.plan-list .rate{
+  width:160px;
+}
+.plan-list .plan-days{
+  width:108px;
+}
+.plan-list .raise-amount{
+  width:119px;
+}
+.plan-list .progress{
+  width:229px;
+}
+.plan-box li{
+   display: flex;
+  height:110px;
+  border-bottom:1px solid #eeeeee;
+  align-items:center;
+}
+.plan-box li .plan-name {
+  font-size: 18px;
+  color:#333333;
+  padding-left:10px;
+}
+.plan-box li .plan-name img{
+  margin-right: 9px;
+  margin-top: 3px;
+}
+.plan-box li .rate{
+  font-size: 38px;
+  color:#ff6d44;
+}
+.plan-box li  span{
+  color:#999999;
+  font-size: 14px;
+}
+.plan-box li .rate i{
+  font-size: 18px;
+  color:#ff6d44;
+}
+.plan-box li .plan-days{
+  font-size: 18px;
+  color:#333333;
+}
+.plan-box li .raise-amount{
+  font-size: 18px;
+  color:#333333;
+}
+.profit-progress{
+  display: flex;
+  align-items:center;
+  width:270px;
+}
+.progressBar{
+  width:139px;
+  height:4px;
+  background: #eeeeee;
+  position: relative;
+  border-radius: 5px;
+}
+.progress{
+  position: absolute;
+  width:50px;
+  max-width: 139px;
+    height:4px;
+    left:0;
+    top:0;
+    background-color: #ff9420;
+    border-radius: 5px;
+}
+.plan-btn a{
+  display: block;
+  width:124px;
+  height:32px;
+  background-color: #ff9420;
+  color:#fff;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 10px;
+}
+
+.pageDiv{
+  margin:65px 0 0;
+}
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+}
+.null_num{
+  width: 1100px; 
+  text-align: center;
+  background: #fff;
+  margin:20px auto;
+  min-height: 600px;
+}
+.null_num img{
+  margin-top:200px;
+}

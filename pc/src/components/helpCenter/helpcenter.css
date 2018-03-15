@@ -1,0 +1,26 @@
+.mainCont {
+    width: 911px;
+    box-sizing: border-box;
+    background: #fff;
+    min-height: 493px;
+    padding: 12px 25px 0;
+    margin-bottom: 20px;
+}
+
+.mainCont .title-wrap {
+    border-bottom: 1px solid #eee;
+}
+
+.mainCont .title {
+    height: 43px;
+    line-height: 43px;
+    font-size: 18px;
+    border-bottom: 1px solid #eee;
+}
+
+section .right-btn {
+    display: inline-block;
+    height: 43px;
+    line-height: 43px;
+    color: #999;
+}

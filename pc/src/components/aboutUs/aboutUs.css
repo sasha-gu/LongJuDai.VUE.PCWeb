@@ -1,0 +1,192 @@
+.text-ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.aboutusnav-wrap {
+    border-top: 1px solid #f0f0f0;
+    background: #fff;
+}
+
+.aboutus-nav {
+    width: 1100px;
+    height: 45px;
+    margin: 0 auto;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+.aboutus-nav li {
+    float: left;
+    margin-right: 84px;
+}
+
+.aboutus-nav li:last-child {
+    margin-right: 0
+}
+
+.aboutus-nav li a {
+    display: inline-block;
+    line-height: 45px;
+}
+
+.aboutus-nav li a.router-link-active {
+    color: #ff6d44;
+}
+
+.aboutus-main {
+    width: 1100px;
+    min-height: 467px;
+    margin: 30px auto;
+    background: #fff;
+}
+
+.aboutus-main .main-title {
+    line-height: 80px;
+    padding-left: 24px;
+    font-size: 18px;
+}
+
+.aboutus-index-container {
+    padding: 62px 80px;
+}
+
+.aboutus-index-container h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.aboutus-index-container h2.team {
+    margin-top: 80px;
+}
+
+.aboutus-index-container p {
+    margin-bottom: 10px;
+}
+
+.aboutus-index-container .img-wrap {
+    text-align: center;
+    font-size: 0;
+}
+
+.team-info-wrap {
+    text-align: center;
+}
+
+.aboutus-index-container .team-info {
+    display: inline-block;
+}
+
+.aboutus-index-container .team-info li {
+    width: 273px;
+    margin-right: 44px;
+}
+
+.aboutus-index-container .team-info li p {
+    font-size: 16px;
+}
+
+.aboutus-index-container .team-info li:last-child {
+    margin-right: 0;
+}
+
+.aboutus-index-container .team-info li .name {
+    margin-top: 40px;
+    margin-bottom: 18px;
+    font-size: 20px;
+}
+
+.aboutus-index-container .team-info li .position {
+    margin-bottom: 30px;
+    color: #a09d9d;
+}
+
+.aboutus-index-container .team-info li .position span {
+    position: relative;
+}
+
+.aboutus-index-container .team-info li .position span:before,
+.aboutus-index-container .team-info li .position span:after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    background: #a09d9d;
+    width: 22px;
+    height: 1px;
+}
+
+.aboutus-index-container .team-info li .position span:before {
+    top: 10px;
+    left: -30px;
+}
+
+.aboutus-index-container .team-info li .position span:after {
+    top: 10px;
+    right: -30px;
+}
+
+.aboutus-index-container .team-info li .major {
+    margin-bottom: 6px;
+}
+
+.aboutus-index-container .team-info li .introduce {
+    text-align: left;
+    color: #666;
+}
+
+
+/* 页码 */
+
+.pages {
+    margin-top: 87px;
+    text-align: center;
+}
+
+.pages span {
+    display: inline-block;
+    padding: 0 14px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    font-weight: bold;
+    background: #e7e5e5;
+    vertical-align: middle;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.pages .disabled {
+    cursor: not-allowed;
+}
+
+.pages .disabled:hover {
+    background-color: #e7e5e5;
+    color: #fff;
+}
+
+.pages span:hover {
+    background-color: #ff9420;
+    color: #fff;
+}
+
+.pages span.active {
+    background: #ff9420;
+}
+
+.pages span.page-num {
+    margin: 0 2px;
+}
+
+.pages .pre {
+    background: #e7e5e5 url(./resource/page-pre.png) no-repeat;
+    background-size: auto;
+    background-position: center center;
+}
+
+.pages .next {
+    background: #e7e5e5 url(./resource/page-next.png) no-repeat;
+    background-size: auto;
+    background-position: center center;
+}

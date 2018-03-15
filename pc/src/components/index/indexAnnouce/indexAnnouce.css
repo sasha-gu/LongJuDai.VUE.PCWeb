@@ -1,0 +1,86 @@
+.honor_news {
+    background: #f5f5f5;
+    margin-bottom:20px;
+}
+
+.honor_news .honor,
+.honor_news .news {
+    width: 745px;
+    padding: 25px 20px;
+    background: #fff;
+}
+
+.honor_news .news {
+    width: 500px;
+}
+.honor_news .dot{
+  background: #ff9420;
+  height:5px;
+  width:5px;
+  border-radius: 100%;
+  margin:7px 10px 0 0;
+}
+.honor_news .first{margin-right:20px;}
+.honor_news .honor .honorTitle img,
+.honor_news .news .newsTitle img {
+    height: 24px;
+    margin-right: 13px;
+}
+
+.honor_news .honor .honorTitle,
+.honor_news .news .newsTitle {
+    line-height: 24px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dedede;
+}
+
+.honor_news .honor .honorTitle p,
+.honor_news .news .newsTitle p {
+    color: #2c3537;
+    font-size: 16px;
+}
+
+.honor_news .honor .honorTitle a,
+.honor_news .news .newsTitle a {
+    font-size: 14px;
+    color: #999;
+}
+
+.honor_news .honor .honorTitle a:hover,
+.honor_news .news .newsTitle a:hover {
+    color: #e95d42;
+}
+
+.honor_news .honor ul li {
+    width: 198px;
+    text-align: center;
+    color: #2c3537;
+    font-size: 16px;
+    padding-top: 20px;
+    margin-left: 32px;
+    padding-bottom: 8px;
+}
+
+.honor_news .honor ul li.first {
+    margin-left: 41px;
+}
+
+.honor_news .honor ul li img {
+    margin-bottom: 16px;
+}
+
+.honor_news .news ul {
+    height: 208px;
+}
+
+.honor_news .news ul li {
+    margin-top: 26px;
+}
+
+.honor_news .news ul li .newsTit {
+    width: 223px;
+    word-break: break-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

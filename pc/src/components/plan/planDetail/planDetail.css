@@ -1,0 +1,222 @@
+
+.planDetail_top,.planDetail_bot{
+  width:1100px;
+  margin:20px auto;
+  background: #fff;
+}
+.OrderNumber{
+  padding:0 25px;
+
+}
+.top_content{
+  height:60px;
+  line-height: 60px;
+  font-size: 16px;
+  color:#333;
+  border-bottom:1px solid #eee;
+}
+.calculation{
+  padding-right:20px;
+}
+
+.profit-progress{
+  display: flex;
+  align-items:center;
+  width:270px;
+}
+.progressBar{
+  width:139px;
+  height:4px;
+  background: #eeeeee;
+  position: relative;
+  border-radius: 5px;
+  margin-right:10px;
+}
+.progress{
+  position: absolute;
+  width:50px;
+  max-width: 139px;
+  height:4px;
+  left:0;
+  top:0;
+  background-color: #ff9420;
+  border-radius: 5px;
+}
+.surplusAmount{
+  margin-left:20px;
+  padding:50px 0 40px;
+}
+/*说明*/
+.describe_left{
+   border-right:1px solid #eee;
+}
+.describe_left_list{
+  width:700px;
+ 
+  padding:55px 0 65px;
+}
+.describe_left_list li{
+  color:#333;
+  font-size:14px;
+  
+  /*text-align: center;*/
+}
+.describe_left_list li span{
+   font-size:40px;
+   font-weight: 500;
+}
+.describe_left_list li.first{
+  margin-left:70px;
+  width:182px;
+}
+.describe_left_list li.second{
+  width:160px;
+}
+.describe_left_list li.first span{
+  color:#ff6d44;
+ 
+}
+.describe_left_list .source{
+  color:#999;
+  font-size:14px;
+}
+.bid_icon{
+  font-size: 14px;
+  color:#333;
+  line-height: 40px;
+  padding-bottom:55px;
+}
+.bid_icon img{
+  margin-top:15px;
+  margin-right:5px;
+}
+.bid_icon .bid_common{
+  margin-left:70px;
+}
+.bid_icon .bid_right{
+  margin-left:90px;
+}
+.describe_right{
+  color:#333;
+  font-size:14px;
+  width:399px;
+}
+.describe_right span{
+  color:#ff6d44;
+}
+.describe_right .mostInvested{
+  border-bottom: 1px solid #eee;
+  line-height: 48px;
+  padding-left:20px;
+}
+.describe_right .account_balance{
+    padding-left:20px;
+     line-height: 60px;
+     margin-top:5px;
+}
+.describe_right .recharge{
+  background: #ff6d44;
+  color:#fff;
+  padding:3px 10px;
+  line-height: 20px;
+  border-radius: 5px;
+  margin:15px  80px 0 0;
+  cursor: pointer;
+}
+.describe_right .eval{
+  line-height: 43px;
+  margin-left:20px;
+  width:330px;
+  margin-top:15px;
+}
+.describe_right .eval input{
+  width: 163px;
+    height: 38px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    line-height: 36px;
+    color: #333333;
+    text-indent: 10px;
+    width:220px;
+}
+.describe_right .eval .plus, .describe_right .eval .minus {
+    width: 33px;
+    height: 38px;
+    text-align: center;
+    /* background: #e95d42; */
+    border: 1px solid #ccc;
+    border-right: none;
+    color: #999;
+    text-align: center;
+    line-height: 38px;
+    cursor: pointer;
+}
+.describe_right .eval .plus {
+  margin-right: 11px;
+  border-left: none;
+  border-right: 1px solid #ccc;
+}
+.describe_right .eval .Validform_checktip{
+    color: #8a8a8a;
+    font-size: 14px;
+    font-weight: normal;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 0;
+    width: 280px;
+    margin-left: 0;
+
+}
+.Validform_wrong {
+    color: #e85454;
+    padding-left: 20px;
+    white-space: nowrap;
+    line-height: 30px;
+    /*background: url(../images/error.png) no-repeat left center;*/
+    left: 275px;
+    height: 17px;
+    top: 10px;
+}
+.earnings{
+  padding-top:16px;
+  margin-left:20px;
+}
+.immediateBid a{
+    display: block;
+    width: 338px;
+    margin-left:20px; 
+    height: 38px;
+    background: #0f599c;
+    color: #fff;
+    font-size: 16px;
+    line-height: 34px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.immediateBid a:link{
+  color:#fff;
+}
+/*tab切换*/
+.tab li{
+  line-height: 68px;
+  height:68px;
+  margin-left:72px;
+  cursor: pointer;
+}
+.tab li.last{
+   margin-left:90px;
+}
+.tab .active{
+  color:#0f599c;
+  border-bottom:2px solid #0f599c;
+}
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+}

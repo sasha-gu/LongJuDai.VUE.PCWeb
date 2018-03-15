@@ -1,0 +1,47 @@
+.borrower {
+  width: 1040px;
+  margin: 0 auto;
+  background: #fff;
+  margin-top:20px;
+}
+
+.borrower p {
+	background: #fafafa;
+	font-size:14px;
+	color:#333;
+	height:44px;
+	line-height: 44px;
+	text-indent:32px;
+}
+.borrowerlist{
+	height:66px;
+	line-height: 66px;
+	
+}
+.borrowerlist li{
+	margin-left:36px;
+}
+.borrowerlist li img{
+	margin-top:20px;
+	margin-right:5px;
+}
+.usageOfLoan{
+	padding-bottom:67px;
+}
+.usageOfLoan li{
+	height:50px;
+	line-height: 50px;
+	margin-left:36px;
+	padding-left:30px;
+	border-bottom: 1px solid #eeeeee;
+	font-size:14px;
+
+}
+.usageOfLoan li i{
+	color:#999999;
+	width:150px;
+	display: inline-block;
+}
+.usageOfLoan li a{
+	color:#ff6d44;
+}

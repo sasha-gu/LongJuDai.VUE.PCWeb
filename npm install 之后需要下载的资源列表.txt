@@ -1,0 +1,3 @@
+﻿需要下载的资源
+npm install  vue-awesome-swiper --save  //swiper
+npm install  echarts --save   //图表

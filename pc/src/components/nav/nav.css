@@ -1,0 +1,62 @@
+.nav{
+  width:100%;
+  min-width: 1100px;
+  background: #ffffff;
+}
+.nav-center{
+  width: 1100px;
+  margin:0 auto;
+}
+.nav-center h1 {
+  padding: 15px 0;
+}
+.nav-center h1 a{
+  display: block;
+  width:273px;
+  height:46px;
+  background: url(./resource/logo.png);
+}
+.page-nav ul{
+  padding: 15px 0;
+}
+.page-nav ul li{
+  float: left;
+}
+.page-nav ul li a{
+  display: block;
+  padding: 20px 25px 0 0;
+  font-size: 16px;
+  color:#333;
+}
+.page-nav ul li a:hover{
+  color: #ff6d44;
+}
+.register-page a{
+  display: block;
+  width:70px;
+  height:28px;
+  line-height: 28px;
+  text-align: center;
+  background: #0f599c;
+  color:#fff;
+  margin-top: 30px;
+  border-radius: 3px;
+  margin-right: 6px;
+}
+.register-page a{
+  color:#fff;
+}
+.login-page a{
+  display: block;
+  width:68px;
+  height:26px;
+  line-height: 28px;
+  text-align: center;
+  border:1px solid #0f599c;
+  color:#0f599c;
+  margin-top: 30px;
+  border-radius: 3px;
+}
+.page-nav ul li a.router-link-active {
+    color: #ff6d44;
+}
